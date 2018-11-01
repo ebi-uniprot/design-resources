@@ -1,0 +1,27 @@
+.wrapper {
+  grid-template-areas:
+    "header"
+    "tabs"
+    "content"
+    "footer";
+
+  grid-template-columns: 1024px;
+  /*grid-template-rows: 130px 90px calc(100vh - 130px - 90px);*/
+  grid-template-rows: 130px 50px auto;
+}
+
+.main-tabs {
+  margin-right: 30px;
+}
+
+.content {
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+#sequence-features {
+  width: 964px;
+  height: 950px;
+  background-image: url("../images/sequence-features.png");
+  background-repeat: none;
+}
