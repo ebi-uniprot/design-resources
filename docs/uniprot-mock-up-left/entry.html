@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>UniProt Entry</title>
+  <link rel="stylesheet" type="text/css" href="./styles/main.css">
+  <link rel="stylesheet" type="text/css" href="./styles/entry.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="wrapper">
+    <section class="header"></section>
+
+    <section class="main-tabs">
+      <ul id="main-tabs" class="tabs">
+        <li class="active"><a href="./entry.html">Protein Entry</a></li>
+        <li><a href="./sequence.html">Sequence Feature</a></li>
+        <li><a href="./publications.html">Publications</a></li>
+        <li><a href="./xref.html">Cross-References</a></li>
+      </ul>
+    </section>
+
+    <section class="actions">
+      <div id="action-buttons"></div>
+    </section>
+
+    <section class="side-bar">
+      <ul id="entry-nav" class="side-bar-menu">
+        <li><a href="#function">Function</a></li>
+        <li><a href="#taxonomy">Names & Taxonomy</a></li>
+        <li>Subcellular location</li>
+        <li>Pathology/Bitech</li>
+        <li><a href="#expression">Expression</a></li>
+        <li>PTM/Processing</li>
+        <li>Interaction</li>
+        <li>Structure</li>
+        <li><a href="#domain">Family & Domains</a></li>
+        <li><a href="#sequence">Sequence</a></li>
+        <li><a href="#similar">Similar Proteins</a></li>
+        <li>Miscellanous</li>
+      </ul>
+    </section>
+
+    <section class="content">
+      <section class="entry-details">
+        <div name="summary" id="summary" class="content-section"></div>
+        <div name="function" id="function" class="content-section"></div>
+        <div name="taxonomy" id="taxonomy" class="content-section"></div>
+        <div name="expression" id="expression" class="content-section"></div>
+        <div name="domain" id="domain" class="content-section"></div>
+        <div name="sequence" id="sequence" class="content-section"></div>
+        <div name="similar" id="similar" class="content-section"></div>
+      </section>
+    </section>
+
+    <section class="footer"></section>
+  </section>
+
+</body>
+
+</html>
